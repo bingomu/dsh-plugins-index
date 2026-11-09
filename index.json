@@ -43,7 +43,7 @@
         "zh": "贴在对话左边的 42px 工具条：一句话记成便签 / 跟进 / 提醒，选中文字引用或交给模型，常用指令一键插回输入框，随时看上下文与 token。不占侧栏、不改布局。",
         "en": "A 42px strip beside the conversation: one-line notes into a note, follow-up or reminder; quote or hand selected text to the model; drop saved prompts into the composer; read context and token use."
       },
-      "icon": "https://raw.githubusercontent.com/bingomu/dsh-wingman/v1.0.3/assets/icon-180.png",
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-wingman/v1.0.4/assets/icon-180.png",
       "author": "Genzo",
       "homepage": "https://github.com/bingomu/dsh-wingman#readme",
       "repository": {
@@ -65,12 +65,12 @@
       },
       "versions": [
         {
-          "version": "1.0.3",
-          "publishTimestamp": 1794138532,
+          "version": "1.0.4",
+          "publishTimestamp": 1794214720,
           "source": {
             "type": "git",
             "url": "https://github.com/bingomu/dsh-wingman",
-            "commit": "4c98e6bc3d093f153723d59d817fbd37afac48a3"
+            "commit": "6fc8ff010b7e475fc5c9ab4fc07f8b2f9e4af6da"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0-0"
