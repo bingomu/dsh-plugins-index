@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "Genzo 的 DSH 插件",
+    "en": "Genzo's DSH plugins"
+  },
+  "description": {
+    "zh": "对话工具条、跟进清单、便签墙、用量小票机、图片查看器、可读图表——都在这里。",
+    "en": "Conversation tool strip, follow-up list, sticky wall, usage printer, image viewer and readable diagrams."
+  },
+  "metadata": {
+    "categories": {
+      "conversation": {
+        "title": {
+          "zh": "对话与工作流",
+          "en": "Conversation & workflow"
+        }
+      },
+      "tools": {
+        "title": {
+          "zh": "工具与展示",
+          "en": "Tools & display"
+        }
+      }
+    },
+    "labels": {
+      "fresh": {
+        "title": {
+          "zh": "刚更新",
+          "en": "Just updated"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@bingomu/dsh-wingman",
+      "title": {
+        "zh": "对话工具条",
+        "en": "Conversation tool strip"
+      },
+      "description": {
+        "zh": "贴在对话左边的 42px 工具条：一句话记成便签 / 跟进 / 提醒，选中文字引用或交给模型，常用指令一键插回输入框，随时看上下文与 token。不占侧栏、不改布局。",
+        "en": "A 42px strip beside the conversation: one-line notes into a note, follow-up or reminder; quote or hand selected text to the model; drop saved prompts into the composer; read context and token use."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-wingman/v1.0.3/assets/icon-180.png",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/dsh-wingman#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/dsh-wingman"
+      },
+      "metadata": {
+        "category": "conversation",
+        "keywords": [
+          "toolbar",
+          "tool strip",
+          "wingman",
+          "工具条",
+          "选中文字",
+          "常用指令"
+        ],
+        "labels": [
+          "fresh"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.3",
+          "publishTimestamp": 1794138532,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/dsh-wingman",
+            "commit": "4c98e6bc3d093f153723d59d817fbd37afac48a3"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@bingomu/dsh-followup",
+      "title": {
+        "zh": "跟进清单",
+        "en": "Follow-up list"
+      },
+      "description": {
+        "zh": "跨对话记录待跟进事项：对话头标记、侧栏计数、右侧账本列出所有未收尾的对话与任务。",
+        "en": "Follow-ups across conversations: mark them in the conversation header, see the count in the sidebar, and review every open one in a ledger."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-followup/v0.2.4/assets/icon-180.png",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/dsh-followup#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/dsh-followup"
+      },
+      "metadata": {
+        "category": "conversation",
+        "keywords": [
+          "followup",
+          "todo",
+          "跟进"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1794120123,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/dsh-followup",
+            "commit": "232d13991d02eb28bd45ffecd81f2e75fa1fe0c0"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-sticky-wall",
+      "title": {
+        "zh": "便签墙",
+        "en": "Sticky wall"
+      },
+      "description": {
+        "zh": "侧边栏常驻的便签墙：九种纸色、分类、搜索、归档、变成待办，并支持 agent 直接读写。",
+        "en": "A sticky wall in the sidebar: nine paper colours, categories, search, archive, to-dos, and agent read/write access."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-sticky-wall/v1.1.1/assets/icon-180.png",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/dsh-sticky-wall#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/dsh-sticky-wall"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "notes",
+          "sticky",
+          "便签"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.1.1",
+          "publishTimestamp": 1794121494,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/dsh-sticky-wall",
+            "commit": "d48032c45f7a37c92d0d543a163f45186a89b066"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@bingomu/dsh-usage-printer",
+      "title": {
+        "zh": "用量小票机",
+        "en": "Usage printer"
+      },
+      "description": {
+        "zh": "侧栏小票机：点阵数字屏显示余额水位与峰谷价格，悬停出纸显示明细。",
+        "en": "A receipt printer in the sidebar: dot-matrix balance screen with peak/off-peak pricing; hover to print the details."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-usage-printer/v1.4.0/icon.svg",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/dsh-usage-printer#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/dsh-usage-printer"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "usage",
+          "balance",
+          "用量",
+          "余额"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.4.0",
+          "publishTimestamp": 1793978918,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/dsh-usage-printer",
+            "commit": "2a35e1e0ac737d57358f1c593f64f7378fd6637e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-image-zoom",
+      "title": {
+        "zh": "图片查看器",
+        "en": "Image viewer"
+      },
+      "description": {
+        "zh": "对话里的图片查看器：滚轮 / 触控板捏合以指针为中心缩放，双指与拖动平移，图集切换、自动命名下载。",
+        "en": "In-chat image viewer: wheel and trackpad-pinch zoom at the pointer, drag panning, gallery browsing, auto-named downloads."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/dsh-image-zoom/v1.0.1/assets/icon-180.png",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/dsh-image-zoom#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/dsh-image-zoom"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "image",
+          "zoom",
+          "图片"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1793603217,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/dsh-image-zoom",
+            "commit": "db71cffc987879c50a04ec7cb932eedb14e5bbe6"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-readable-diagrams",
+      "title": {
+        "zh": "可读图表",
+        "en": "Readable diagrams"
+      },
+      "description": {
+        "zh": "一份 JSON 规格出九种图表：标题、阅读动线、图例、对比度与连线都经过机器校验，让读者一眼看懂。",
+        "en": "Nine diagram kinds from one JSON spec, with conclusion titles, reading path, legend, contrast and edge checks machine-verified."
+      },
+      "icon": "https://raw.githubusercontent.com/bingomu/readable-diagrams/v1.1.0/assets/icon-180.png",
+      "author": "Genzo",
+      "homepage": "https://github.com/bingomu/readable-diagrams#readme",
+      "repository": {
+        "url": "https://github.com/bingomu/readable-diagrams"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "diagram",
+          "chart",
+          "图表"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1793628204,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bingomu/readable-diagrams",
+            "commit": "a9f16ab0f5a2aeb6f7e33143aeda59b5854fbf6e"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
